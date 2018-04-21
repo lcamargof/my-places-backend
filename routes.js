@@ -122,7 +122,7 @@ module.exports = io => [
         await Places.destroy({ where: { id } });
 
         // IO EVENT
-        io.emit('delete', id);
+        io.emit('remove', id);
 
         return h.response({
           success: true,
