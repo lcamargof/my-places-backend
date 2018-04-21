@@ -1,0 +1,19 @@
+{
+  "development": {
+    "host": "ec2-23-23-180-121.compute-1.amazonaws.com",
+    "database": "d4s5rigu54afl6",
+    "username": "pbpnapgoaxjsfm",
+    "port": 5432,
+    "password": "b0b6d5808f66ad5f5ea2710dcf5974004191b5b64a1af7708e7f65f1b68e61b8",
+    "dialect": "postgres",
+    "native": "true"
+  },
+  "production": {
+    "host": "ec2-23-23-180-121.compute-1.amazonaws.com",
+    "database": "d4s5rigu54afl6",
+    "username": "pbpnapgoaxjsfm",
+    "port": 5432,
+    "password": "b0b6d5808f66ad5f5ea2710dcf5974004191b5b64a1af7708e7f65f1b68e61b8",
+    "dialect": "postgres"
+  }
+}

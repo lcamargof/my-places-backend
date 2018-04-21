@@ -1,0 +1,25 @@
+{
+  "name": "myplaces",
+  "version": "1.0.0",
+  "description": "Skycatch code challenge",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app",
+    "test": "npm test",
+    "create:db": "sequelize db:create"
+  },
+  "keywords": [
+    "places"
+  ],
+  "author": "Luis Camargo",
+  "license": "ISC",
+  "dependencies": {
+    "hapi": "^17.3.1",
+    "pg": "^7.4.1",
+    "pg-hstore": "^2.3.2",
+    "pg-native": "^2.2.0",
+    "sequelize": "^4.37.6",
+    "sequelize-cli": "^4.0.0",
+    "socketio": "^1.0.0"
+  }
+}
